@@ -132,8 +132,8 @@ func imageToAscii(imgPath string) string {
 	convertOptions := convert.DefaultOptions
 	convertOptions.Ratio = 5
 	convertOptions.FitScreen = true
-	convertOptions.FixedWidth = 50
-	convertOptions.FixedHeight = 20
+	convertOptions.FixedWidth = 65
+	convertOptions.FixedHeight = 23
 	convertOptions.Colored = false
 
 	converter := convert.NewImageConverter()
